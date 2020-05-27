@@ -340,6 +340,7 @@ class App extends Component {
           <FormGroup check>
             <Label check className="kit">
               <Input
+              
                 type="radio"
                 name="radio1"
                 onClick={this.changeStateTrue.bind(this)}
@@ -350,6 +351,7 @@ class App extends Component {
           <FormGroup check>
             <Label check className="kit">
               <Input
+               checked
                 type="radio"
                 name="radio1"
                 onClick={this.changeStateFalse.bind(this)}
