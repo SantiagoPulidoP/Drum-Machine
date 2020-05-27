@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  
+}
+
+.col, .btn{
+  margin: 4px;
 }
 
 .App-logo {
@@ -35,4 +40,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#exampleCustomRange{
+  width: 50%;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 2%;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color:white;
+}
+
+.title{
+  margin-bottom: 10%;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.kit{
+  color:white;
 }
