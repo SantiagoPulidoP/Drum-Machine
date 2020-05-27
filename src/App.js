@@ -247,7 +247,7 @@ class App extends Component {
     if (this.state.kit1 === true) {
       return (
         <div className="App">
-          <h2 className="title">Clasical Drum Machine</h2>
+          <h2 className="title">Classical Drum Machine</h2>
 
           <Container>
             <Row>
@@ -305,7 +305,7 @@ class App extends Component {
     else if(this.state.kit1===false){
       return (
         <div className="App">
-          <h2 className="title">Clasical Drum Machine</h2>
+          <h2 className="title">Classical Drum Machine</h2>
 
           <Container>
             <Row>
@@ -363,7 +363,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h2 className="title">Clasical Drum Machine</h2>
+        <h2 className="title">Classical Drum Machine</h2>
 
         <FormGroup check>
           <Label check className="kit">
