@@ -61,9 +61,8 @@ const keySounds2 = [
 const keySounds3 = [
   {
     key: "z",
-    clip:
-      "http://dight310.byu.edu/media/audio/FreeLoops.com/3/3/Foxy%2070s%20Guitar%20Hit-1455-Free-Loops.com.mp3",
-    ref: "delay",
+    clip: crash,
+    ref: "crash_",
   },
   {
     key: "x",
@@ -72,9 +71,8 @@ const keySounds3 = [
   },
   {
     key: "c",
-    clip:
-      "http://www.chiptape.com/chiptape/sounds/medium/MidwayGauntletG010.WAV",
-    ref: "piano",
+    clip: tom3,
+    ref: "tom",
   },
 ];
  
